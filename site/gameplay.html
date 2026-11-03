@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="author" content="Прохор">
+<meta name="description" content="Геймплей Nine Sols: парирование, навыки, советы новичкам.">
+<meta name="keywords" content="Nine Sols, геймплей, парирование, советы">
+<title>Nine Sols — геймплей</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header id="top">
+<h1>Геймплей</h1>
+<p>Как устроены бои и исследование мира</p>
+<nav><a href="index.html">Главная</a><a class="active" href="gameplay.html">Геймплей</a><a href="links.html">Ссылки</a></nav>
+</header>
+<main>
+<ul class="toc">
+<li><a href="#combat">Боевая система</a></li>
+<li><a href="#tips">Советы новичку</a></li>
+<li><a href="#words">Скрипт: длинные слова</a></li>
+<li><a href="#letter">Скрипт: частая буква</a></li>
+</ul>
+
+<h2 id="combat">Боевая система</h2>
+<img class="right" src="img/parry.svg" width="260" height="170" alt="Парирование">
+<p>В основе боёв лежит парирование. Вместо того чтобы просто уклоняться, игрок отражает удары врага в нужный момент, а затем атакует в ответ.</p>
+<h3>Основные действия</h3>
+<ol>
+<li>Атака мечом</li>
+<li>Парирование</li>
+<li>Прыжок и рывок</li>
+<li>Использование талисманов</li>
+</ol>
+<div class="clear"></div>
+<table>
+<caption>Краткая памятка (дополните своими наблюдениями)</caption>
+<tr><th>Действие</th><th>Зачем нужно</th></tr>
+<tr><td>Парирование</td><td>Отражает атаку и открывает врага для удара</td></tr>
+<tr><td>Рывок</td><td>Помогает уйти от опасных атак</td></tr>
+<tr><td>Талисман</td><td>Даёт особый эффект в бою</td></tr>
+</table>
+
+<h2 id="tips">Советы новичку</h2>
+<img class="left" src="img/talisman.svg" width="180" height="240" alt="Талисман">
+<ul>
+<li>Изучайте рисунок атак каждого противника.</li>
+<li>Не бойтесь повторять бой — он учит терпению.</li>
+<li>Исследуйте карту: вознаграждения скрыты в разных местах.</li>
+</ul>
+<div class="clear"></div>
+
+<h2 id="words">Скрипт: удалить слова длиннее 7 букв</h2>
+<div class="tool">
+<textarea id="sentence1" rows="3">Парирование превращает каждый поединок в настоящий танец с противником</textarea>
+<button onclick="removeLongWords()">Удалить длинные слова</button>
+</div>
+
+<h2 id="letter">Скрипт: самая частая буква</h2>
+<div class="tool">
+<textarea id="sentence2" rows="3">Таопанк соединяет восточную философию и научную фантастику</textarea>
+<button onclick="mostFrequentLetter()">Найти букву</button>
+</div>
+
+<p><a href="#top">↑ Наверх</a> · <a href="index.html">На главную</a></p>
+</main>
+<footer>Лабораторная № 2 — «Мой первый хоумпейдж»</footer>
+<script src="script.js"></script>
+</body>
+</html>
